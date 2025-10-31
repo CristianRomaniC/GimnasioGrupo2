@@ -3,8 +3,7 @@
 namespace GimnasioGrupo2.Models
 {
     public class Gimnasio
-    {
-        [Key]
+    {        [Key]
         public string id { get; set; }
         public int nombre { get; set; }
         public string direccion { get; set; }
